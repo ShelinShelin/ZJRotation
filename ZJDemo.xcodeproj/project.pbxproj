@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		381815993967522671070880 /* Pods_ZJDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE410F261DB04656BC67603A /* Pods_ZJDemo.framework */; };
+		DD7866011E690C890072CC69 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7866001E690C890072CC69 /* NormalViewController.m */; };
+		DD7866041E690D8F0072CC69 /* Normal2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7866031E690D8F0072CC69 /* Normal2ViewController.m */; };
+		DD7866071E690F020072CC69 /* ico_fanhui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7866051E690F020072CC69 /* ico_fanhui@2x.png */; };
+		DD7866081E690F020072CC69 /* ico_fanhui@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7866061E690F020072CC69 /* ico_fanhui@3x.png */; };
 		DDC63B311E68381500B5DF0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC63B301E68381500B5DF0E /* main.m */; };
 		DDC63B341E68381500B5DF0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC63B331E68381500B5DF0E /* AppDelegate.m */; };
 		DDC63B371E68381500B5DF0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC63B361E68381500B5DF0E /* ViewController.m */; };
@@ -15,6 +20,14 @@
 		DDC63B3F1E68381500B5DF0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC63B3D1E68381500B5DF0E /* LaunchScreen.storyboard */; };
 		DDC63B4A1E68381500B5DF0E /* ZJDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC63B491E68381500B5DF0E /* ZJDemoTests.m */; };
 		DDC63B551E68381500B5DF0E /* ZJDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC63B541E68381500B5DF0E /* ZJDemoUITests.m */; };
+		DDC63B681E68394900B5DF0E /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC63B671E68394900B5DF0E /* BaseTabBarViewController.m */; };
+		DDC63B6B1E68396600B5DF0E /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC63B6A1E68396600B5DF0E /* BaseNavViewController.m */; };
+		DDC63B6E1E68397E00B5DF0E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC63B6D1E68397E00B5DF0E /* BaseViewController.m */; };
+		DDC63B711E683B6900B5DF0E /* UINavigationController+or.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC63B701E683B6900B5DF0E /* UINavigationController+or.m */; };
+		DDC63B741E683CB700B5DF0E /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC63B731E683CB700B5DF0E /* PresentViewController.m */; };
+		DDC63B771E68402300B5DF0E /* PresentPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC63B761E68402300B5DF0E /* PresentPushViewController.m */; };
+		DDC63B7A1E6841D300B5DF0E /* PresentPush2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC63B791E6841D300B5DF0E /* PresentPush2ViewController.m */; };
+		DDC63B7D1E68427F00B5DF0E /* Present3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC63B7C1E68427F00B5DF0E /* Present3ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75C7EA0022CA46AC1C6D269A /* Pods-ZJDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJDemo/Pods-ZJDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D606CA80171C050DE6303459 /* Pods-ZJDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJDemo/Pods-ZJDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DD7865FF1E690C890072CC69 /* NormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		DD7866001E690C890072CC69 /* NormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
+		DD7866021E690D8F0072CC69 /* Normal2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Normal2ViewController.h; sourceTree = "<group>"; };
+		DD7866031E690D8F0072CC69 /* Normal2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Normal2ViewController.m; sourceTree = "<group>"; };
+		DD7866051E690F020072CC69 /* ico_fanhui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_fanhui@2x.png"; sourceTree = "<group>"; };
+		DD7866061E690F020072CC69 /* ico_fanhui@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_fanhui@3x.png"; sourceTree = "<group>"; };
 		DDC63B2C1E68381500B5DF0E /* ZJDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC63B301E68381500B5DF0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDC63B321E68381500B5DF0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +72,24 @@
 		DDC63B501E68381500B5DF0E /* ZJDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC63B541E68381500B5DF0E /* ZJDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDemoUITests.m; sourceTree = "<group>"; };
 		DDC63B561E68381500B5DF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC63B651E6838A900B5DF0E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DDC63B661E68394900B5DF0E /* BaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
+		DDC63B671E68394900B5DF0E /* BaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
+		DDC63B691E68396600B5DF0E /* BaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
+		DDC63B6A1E68396600B5DF0E /* BaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
+		DDC63B6C1E68397E00B5DF0E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DDC63B6D1E68397E00B5DF0E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DDC63B6F1E683B6900B5DF0E /* UINavigationController+or.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+or.h"; sourceTree = "<group>"; };
+		DDC63B701E683B6900B5DF0E /* UINavigationController+or.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+or.m"; sourceTree = "<group>"; };
+		DDC63B721E683CB700B5DF0E /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		DDC63B731E683CB700B5DF0E /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		DDC63B751E68402300B5DF0E /* PresentPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentPushViewController.h; sourceTree = "<group>"; };
+		DDC63B761E68402300B5DF0E /* PresentPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentPushViewController.m; sourceTree = "<group>"; };
+		DDC63B781E6841D300B5DF0E /* PresentPush2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentPush2ViewController.h; sourceTree = "<group>"; };
+		DDC63B791E6841D300B5DF0E /* PresentPush2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentPush2ViewController.m; sourceTree = "<group>"; };
+		DDC63B7B1E68427F00B5DF0E /* Present3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Present3ViewController.h; sourceTree = "<group>"; };
+		DDC63B7C1E68427F00B5DF0E /* Present3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Present3ViewController.m; sourceTree = "<group>"; };
+		FE410F261DB04656BC67603A /* Pods_ZJDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381815993967522671070880 /* Pods_ZJDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +118,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		871260FDDB3E2CE5D063DD64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE410F261DB04656BC67603A /* Pods_ZJDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DDC63B231E68381500B5DF0E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +133,8 @@
 				DDC63B481E68381500B5DF0E /* ZJDemoTests */,
 				DDC63B531E68381500B5DF0E /* ZJDemoUITests */,
 				DDC63B2D1E68381500B5DF0E /* Products */,
+				ECF2796477BEE242D616F251 /* Pods */,
+				871260FDDB3E2CE5D063DD64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +151,12 @@
 		DDC63B2E1E68381500B5DF0E /* ZJDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DDC63B621E68387E00B5DF0E /* Base */,
+				DDC63B631E68388400B5DF0E /* 老功能 */,
+				DDC63B641E68388B00B5DF0E /* 新功能 */,
 				DDC63B321E68381500B5DF0E /* AppDelegate.h */,
 				DDC63B331E68381500B5DF0E /* AppDelegate.m */,
-				DDC63B351E68381500B5DF0E /* ViewController.h */,
-				DDC63B361E68381500B5DF0E /* ViewController.m */,
 				DDC63B381E68381500B5DF0E /* Main.storyboard */,
-				DDC63B3B1E68381500B5DF0E /* Assets.xcassets */,
-				DDC63B3D1E68381500B5DF0E /* LaunchScreen.storyboard */,
-				DDC63B401E68381500B5DF0E /* Info.plist */,
 				DDC63B2F1E68381500B5DF0E /* Supporting Files */,
 			);
 			path = ZJDemo;
@@ -117,6 +165,10 @@
 		DDC63B2F1E68381500B5DF0E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DDC63B3B1E68381500B5DF0E /* Assets.xcassets */,
+				DDC63B3D1E68381500B5DF0E /* LaunchScreen.storyboard */,
+				DDC63B401E68381500B5DF0E /* Info.plist */,
+				DDC63B651E6838A900B5DF0E /* PrefixHeader.pch */,
 				DDC63B301E68381500B5DF0E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +192,60 @@
 			path = ZJDemoUITests;
 			sourceTree = "<group>";
 		};
+		DDC63B621E68387E00B5DF0E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DD7866051E690F020072CC69 /* ico_fanhui@2x.png */,
+				DD7866061E690F020072CC69 /* ico_fanhui@3x.png */,
+				DDC63B661E68394900B5DF0E /* BaseTabBarViewController.h */,
+				DDC63B671E68394900B5DF0E /* BaseTabBarViewController.m */,
+				DDC63B691E68396600B5DF0E /* BaseNavViewController.h */,
+				DDC63B6A1E68396600B5DF0E /* BaseNavViewController.m */,
+				DDC63B6F1E683B6900B5DF0E /* UINavigationController+or.h */,
+				DDC63B701E683B6900B5DF0E /* UINavigationController+or.m */,
+				DDC63B6C1E68397E00B5DF0E /* BaseViewController.h */,
+				DDC63B6D1E68397E00B5DF0E /* BaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		DDC63B631E68388400B5DF0E /* 老功能 */ = {
+			isa = PBXGroup;
+			children = (
+				DDC63B351E68381500B5DF0E /* ViewController.h */,
+				DDC63B361E68381500B5DF0E /* ViewController.m */,
+				DDC63B721E683CB700B5DF0E /* PresentViewController.h */,
+				DDC63B731E683CB700B5DF0E /* PresentViewController.m */,
+				DDC63B751E68402300B5DF0E /* PresentPushViewController.h */,
+				DDC63B761E68402300B5DF0E /* PresentPushViewController.m */,
+				DDC63B781E6841D300B5DF0E /* PresentPush2ViewController.h */,
+				DDC63B791E6841D300B5DF0E /* PresentPush2ViewController.m */,
+				DDC63B7B1E68427F00B5DF0E /* Present3ViewController.h */,
+				DDC63B7C1E68427F00B5DF0E /* Present3ViewController.m */,
+			);
+			name = "老功能";
+			sourceTree = "<group>";
+		};
+		DDC63B641E68388B00B5DF0E /* 新功能 */ = {
+			isa = PBXGroup;
+			children = (
+				DD7865FF1E690C890072CC69 /* NormalViewController.h */,
+				DD7866001E690C890072CC69 /* NormalViewController.m */,
+				DD7866021E690D8F0072CC69 /* Normal2ViewController.h */,
+				DD7866031E690D8F0072CC69 /* Normal2ViewController.m */,
+			);
+			name = "新功能";
+			sourceTree = "<group>";
+		};
+		ECF2796477BEE242D616F251 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D606CA80171C050DE6303459 /* Pods-ZJDemo.debug.xcconfig */,
+				75C7EA0022CA46AC1C6D269A /* Pods-ZJDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDC63B591E68381500B5DF0E /* Build configuration list for PBXNativeTarget "ZJDemo" */;
 			buildPhases = (
+				9CC8CFAFFDB711B4AB7D1AA1 /* [CP] Check Pods Manifest.lock */,
 				DDC63B281E68381500B5DF0E /* Sources */,
 				DDC63B291E68381500B5DF0E /* Frameworks */,
 				DDC63B2A1E68381500B5DF0E /* Resources */,
+				6501C52644A33BA5712A10A5 /* [CP] Embed Pods Frameworks */,
+				91B38EC8C28B7E6AF612B325 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,8 +316,8 @@
 				TargetAttributes = {
 					DDC63B2B1E68381500B5DF0E = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = HL58V3NA9L;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = FLN339CM8A;
+						ProvisioningStyle = Manual;
 					};
 					DDC63B441E68381500B5DF0E = {
 						CreatedOnToolsVersion = 8.2;
@@ -249,9 +358,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7866081E690F020072CC69 /* ico_fanhui@3x.png in Resources */,
 				DDC63B3F1E68381500B5DF0E /* LaunchScreen.storyboard in Resources */,
 				DDC63B3C1E68381500B5DF0E /* Assets.xcassets in Resources */,
 				DDC63B3A1E68381500B5DF0E /* Main.storyboard in Resources */,
+				DD7866071E690F020072CC69 /* ico_fanhui@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +382,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6501C52644A33BA5712A10A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJDemo/Pods-ZJDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91B38EC8C28B7E6AF612B325 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJDemo/Pods-ZJDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CC8CFAFFDB711B4AB7D1AA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DDC63B281E68381500B5DF0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DDC63B371E68381500B5DF0E /* ViewController.m in Sources */,
+				DDC63B7D1E68427F00B5DF0E /* Present3ViewController.m in Sources */,
+				DDC63B6E1E68397E00B5DF0E /* BaseViewController.m in Sources */,
+				DDC63B741E683CB700B5DF0E /* PresentViewController.m in Sources */,
+				DDC63B7A1E6841D300B5DF0E /* PresentPush2ViewController.m in Sources */,
+				DD7866011E690C890072CC69 /* NormalViewController.m in Sources */,
 				DDC63B341E68381500B5DF0E /* AppDelegate.m in Sources */,
+				DD7866041E690D8F0072CC69 /* Normal2ViewController.m in Sources */,
+				DDC63B711E683B6900B5DF0E /* UINavigationController+or.m in Sources */,
+				DDC63B6B1E68396600B5DF0E /* BaseNavViewController.m in Sources */,
 				DDC63B311E68381500B5DF0E /* main.m in Sources */,
+				DDC63B771E68402300B5DF0E /* PresentPushViewController.m in Sources */,
+				DDC63B681E68394900B5DF0E /* BaseTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,25 +592,35 @@
 		};
 		DDC63B5A1E68381500B5DF0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D606CA80171C050DE6303459 /* Pods-ZJDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HL58V3NA9L;
+				DEVELOPMENT_TEAM = FLN339CM8A;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ZJDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjian.HPDemo.ZJDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starunion.hefanlive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "25f3c902-8e1c-41e5-800f-253f63e212fc";
+				PROVISIONING_PROFILE_SPECIFIER = "盒饭LIVE-0215";
 			};
 			name = Debug;
 		};
 		DDC63B5B1E68381500B5DF0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C7EA0022CA46AC1C6D269A /* Pods-ZJDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HL58V3NA9L;
+				DEVELOPMENT_TEAM = FLN339CM8A;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ZJDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjian.HPDemo.ZJDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starunion.hefanlive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "25f3c902-8e1c-41e5-800f-253f63e212fc";
+				PROVISIONING_PROFILE_SPECIFIER = "盒饭LIVE-0215";
 			};
 			name = Release;
 		};
@@ -514,6 +693,7 @@
 				DDC63B5B1E68381500B5DF0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDC63B5C1E68381500B5DF0E /* Build configuration list for PBXNativeTarget "ZJDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +702,7 @@
 				DDC63B5E1E68381500B5DF0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDC63B5F1E68381500B5DF0E /* Build configuration list for PBXNativeTarget "ZJDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +711,7 @@
 				DDC63B611E68381500B5DF0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

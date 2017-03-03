@@ -9,5 +9,15 @@
 #import "UINavigationController+or.h"
 
 @implementation UINavigationController (or)
+- (BOOL)shouldAutorotate {
+    return NO;
+}
 
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation {
+    return UIInterfaceOrientationPortrait;
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
 @end

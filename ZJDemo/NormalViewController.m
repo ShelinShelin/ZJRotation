@@ -7,7 +7,7 @@
 //
 
 #import "NormalViewController.h"
-
+#import "Normal2ViewController.h"
 @interface NormalViewController ()
 
 @end
@@ -16,7 +16,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.title = @"横竖屏切换";
+    
+    UIButton *button1 = [UIButton buttonWithType:UIButtonTypeCustom];
+    button1.frame = CGRectMake(0, 64, WIDTH, 100);
+    button1.backgroundColor = [UIColor blueColor];
+    [button1 setTitle:@"push" forState:UIControlStateNormal];
+    button1.titleLabel.font = [UIFont systemFontOfSize:12];
+    [button1 addTarget:self action:@selector(push) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button1];
+    
+}
+
+#pragma mark - push
+-(void)push {
+    
+    Normal2ViewController *vc = [[Normal2ViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

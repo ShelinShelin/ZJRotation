@@ -46,6 +46,24 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    if (self.Rotate) {
+        switch (self.type) {
+            case RotationTypeOne:
+                return UIInterfaceOrientationMaskLandscape;
+                break;
+            case RotationTypeTwo:
+                return UIInterfaceOrientationMaskAll;
+                break;
+            default:
+                return UIInterfaceOrientationMaskPortrait;
+                break;
+        }
+    }
+    else {
+        return UIInterfaceOrientationMaskPortrait;
+    }
+}
 
 
 @end

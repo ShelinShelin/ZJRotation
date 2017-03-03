@@ -14,4 +14,12 @@
 
 #define ZJAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
 
+#define WIDTH [UIApplication sharedApplication].keyWindow.frame.size.width
+
+#define HEIGHT [UIApplication sharedApplication].keyWindow.frame.size.height
+
+#import "BaseNavViewController.h"
+
+#import "AppDelegate.h"
+
 #endif /* PrefixHeader_pch */

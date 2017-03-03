@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef enum {
+    RotationTypeDefault,
+    RotationTypeOne,
+    RotationTypeTwo
+}RotationType;
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, assign) BOOL Rotate;
 
+@property (nonatomic, assign) RotationType type;
 @end
 

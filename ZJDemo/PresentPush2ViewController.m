@@ -7,7 +7,7 @@
 //
 
 #import "PresentPush2ViewController.h"
-
+#import "Present3ViewController.h"
 @interface PresentPush2ViewController ()
 
 @end
@@ -16,9 +16,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.title = @"pushVC";
+    
+    UIButton *button1 = [UIButton buttonWithType:UIButtonTypeCustom];
+    button1.frame = CGRectMake(0, 180, WIDTH, 100);
+    button1.backgroundColor = [UIColor blueColor];
+    [button1 setTitle:@"present不继承BaseNav的试图" forState:UIControlStateNormal];
+    button1.titleLabel.font = [UIFont systemFontOfSize:12];
+    [button1 addTarget:self action:@selector(present) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button1];
 }
 
+-(void)present{
+    
+    Present3ViewController *vc = [[Present3ViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    [self presentViewController:nav animated:YES completion:nil];
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
